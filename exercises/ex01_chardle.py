@@ -30,14 +30,9 @@ if random_word[4] == guessed_character:
     matching_characters = matching_characters + 1
 
 if matching_characters == 0:
-    print("No instances of " + guessed_character + " found in " + random_word )
+    print("No instances of " + guessed_character + " found in " + random_word)
 else:
     if matching_characters == 1:
-        print( str(matching_characters) + " instance of " + guessed_character + " found in " + random_word ) 
+        print(str(matching_characters) + " instance of " + guessed_character + " found in " + random_word) 
     else:
-        print( str(matching_characters) + " instances of " + guessed_character + " found in " + random_word ) 
-
-
-
-
-
+        print(str(matching_characters) + " instances of " + guessed_character + " found in " + random_word) 
