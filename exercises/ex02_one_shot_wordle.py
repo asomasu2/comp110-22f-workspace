@@ -1,4 +1,4 @@
-"""EX02 : One Shot Wordle"""
+"""EX02 : One Shot Wordle."""
 __author__ = "730509674"
 
 
@@ -38,6 +38,6 @@ else:
             else:
                 color_box += WHITE_BOX
         index_of_word += 1
-    print (color_box)
-    print("Not quite. Play again soon!")
-
+    print(color_box)
+    print("Not quite. Play again soon! ")
+    
