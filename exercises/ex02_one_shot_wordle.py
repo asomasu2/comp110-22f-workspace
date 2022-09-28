@@ -3,7 +3,7 @@ __author__ = "730509674"
 
 
 secret: str = "python"
-guessed_word: str = input("What is your 6-letter guess? ")
+guessed_word: str = input(f"What is your {len(secret)}-letter guess? ")
 
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
