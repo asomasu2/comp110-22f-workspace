@@ -1,8 +1,8 @@
-""""""
+"""Contains functions that play around with dictionaries."""
 __author__ = "730509674"
 
 
-def invert(old_dict: dict[str, str]) -> dict[str,str]:
+def invert(old_dict: dict[str, str]) -> dict[str, str]:
     """Function takes a dictionary and returns a new one with the values and keys from the first dictionary input switched."""
     new_dict: dict[str, str] = {}
     for key in old_dict:
@@ -18,7 +18,7 @@ def invert(old_dict: dict[str, str]) -> dict[str,str]:
     return new_dict
     
 
-def favorite_colors(color: dict[str, str]) -> str:
+def favorite_color(color: dict[str, str]) -> str:
     """Function returns the color that shows up in the dictionary the most amount of times."""
     color_list = []
     color_dict: dict[str, int] = {}
